@@ -1,0 +1,106 @@
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="sidebar.css">
+  <style>
+	  body{
+    /* background-image:url("ab.jpeg");  */
+    /* background-position: center; Center the image */
+    /* background-repeat: no-repeat; Do not repeat the image */
+	/* background-size: cover; */
+	opacity: 50%;
+    padding: 5px;
+	margin: 10px;
+	background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f4791f, #659999);
+    
+}
+  </style>
+
+  </head>
+<body>
+	<style>
+		.form-container{
+		border:3px solid black; 
+		padding: 30px 60px; 
+		margin-top:5vh;
+		-webkit-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+		-moz-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+		box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+		}
+	</style>
+	<div id="wrapper">
+		<div id="sidebar-wrapper">
+			<ul class="sidebar-nav">
+				<li> <a href="#"> Report Traffic </a></li>
+				<li> <a href="#"> Location Based Transport </a></li>
+				<li> <a href="#"> Report Accident </a></li>
+				<li> <a href="#"> Daily Schedules </a></li>
+			</ul>
+		</div>
+		
+		<div id="page-content-wrapper">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12">
+						<a href="#" class="btn btn-success" id="menu-toggle"><p><span class="glyphicon glyphicon-th-list"></span></p></a>
+						<h1 Style="text-align: center;"> Transport Management System</h1>
+						<div class="row">
+							<div class="col-md-4"></div>
+							<div class="col-md-4">
+							<form class="form-container">
+								<h1 style="color: black">Report Traffic</h1>
+								  <div class="form-group">
+									<label for="exampleInputEmail1">Traffic level</label>
+									<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Traffic level">
+								  </div>
+								  <div class="form-group">
+									<label for="exampleInputPassword1">Location</label>
+									<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Address">
+								  </div>
+								  <p style="text-align: center;"> OR </p>
+								  <button onclick="**********">Take current location</button></br></br></br>
+								  <!--
+								  <div class="checkbox">
+									<label>
+									  <input type="checkbox"> Remember Me
+									</label>
+								  </div>
+								  -->
+								  <button type="submit" class="btn btn-success btn-block">submit</button>
+								  
+							</form>
+							</div>
+							<div class="col-md-4"></div>
+							</div>
+						</div>
+						
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+
+	<script>
+		$('#menu-toggle').click(function(e){
+			e.preventDefault();
+			$("#wrapper").toggleClass("menuDisplayed");
+		});
+	</script>
+</body>
+</html>

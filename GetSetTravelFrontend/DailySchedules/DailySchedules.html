@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="daily_schedules.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+            .sty{
+                color: aliceblue;
+            }
+    </style>
+</head>
+<body>
+    <br>
+    
+    <h2 class="sty" style="text-align: center;">Daily Schedules</h2>
+    <!-- <form > -->
+        <br>
+        <fieldset>
+            <br>
+                <legend class="sty" >Daily Schedules:</legend>
+                <p class="sty" >Start Location:</p>
+                <input id="start" type="text" name="start" placeholder="Start">
+                <br>
+                <p class="sty" >Destination Location:</p>
+                <input id="end" type="text" name="destination" placeholder="Destination">
+                <br>
+                <hr>
+                <br>
+                <input id="report"class ="button" type="submit" value="Find Transport">
+        </fieldset>
+        <br>
+
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script type = "text/javascript" src="daily_schedules.js"></script>
+
+</body>
+</html>

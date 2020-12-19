@@ -1,0 +1,50 @@
+
+h1{
+    height: 0%;
+}
+#heading{
+    margin-top: 0px;
+    margin: 0%;
+    padding: 0%;
+    background: #264b8f;
+    text-align: center;
+}
+#heading h1{
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+    padding: 20px 0;
+    background-color: #264b8f;
+    text-transform: uppercase;
+    display: inline-block;
+}
+#logout{
+    float: right;
+}
+html{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    padding: 0;
+	margin: 0;
+	background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f4791f, #659999);
+
+}
+h4{
+    background: orange;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: rgb(24, 17, 14);
+}
+#menuframe{
+    margin-left: 10px;
+}
+#mainframe_{
+    margin-left: 10px;
+    margin-right: 10px;
+}

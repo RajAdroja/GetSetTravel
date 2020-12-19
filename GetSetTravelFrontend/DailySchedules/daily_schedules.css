@@ -1,0 +1,33 @@
+.subheading{
+    margin-top: 0px;
+    margin: -10;
+    padding: -10px;
+    background: #264b8f;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    margin:0 !important;
+    padding: 0 !important;
+    background: #264b8f;
+    font-size: 40px;
+    color: white;
+}
+body{
+    padding: 0;
+	margin: 0;
+}
+html{
+    padding: 0;
+	margin: 0;
+}
+.container{
+    width: 700px;
+    margin: 5%;
+    padding: 2%;
+    height: 20%;
+    background: white;
+    border-radius: 25px;
+    box-shadow: #f4791f;
+}

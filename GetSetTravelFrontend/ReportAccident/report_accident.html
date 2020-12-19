@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <link rel="stylesheet" href="report_traffic.css">
+    <title>Document</title>
+    <style>
+        .sty{
+            color: aliceblue;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <br>
+    <h2 style="text-align: center;" class="sty">Report Accident</h2>
+    
+    <!-- <form > -->
+        <fieldset>
+                <legend class="sty">Accident Details:</legend>
+                <p class="sty">Accident Level:</p>
+                <select id = "level">
+                        <option value="LOW">LOW</option>
+                        <option value="MEDIUM">MEDIUM</option>
+                        <option value="HIGH">HIGH</option>
+                </select>                <br>
+                <p class="sty">Select Your Location:</p>
+                <input id="location" type="text" name="location" placeholder="Vellore">
+                <br>
+                <p class="sty">or</p>
+                <button id ="geoLocation">Take Current Location</button>
+                <br>
+                <hr>
+                <br>
+                <input id="report"class ="button" type="submit" value="Submit">
+        </fieldset>
+        
+    <!-- </form> -->
+    <script type = "text/javascript" src="report_accident.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</body>
+</html>
